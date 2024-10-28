@@ -34,6 +34,9 @@ public class HelloApplication extends Application  {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
             Scene scene = new Scene(root);
+            //scene.getStylesheets().add(getClass().getResource("hello.css").toExternalForm());
+            String css = this.getClass().getResource("hello.css").toExternalForm();
+            scene.getStylesheets().add(css);
 
             primarystage.setScene(scene);
             primarystage.show();
