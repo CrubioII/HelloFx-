@@ -32,7 +32,7 @@ public class HelloApplication extends Application  {
     public void start(Stage primarystage) throws Exception {
         //Stage stage = new Stage();
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("scene1.fxml"));
             Scene scene = new Scene(root);
             //scene.getStylesheets().add(getClass().getResource("hello.css").toExternalForm());
             String css = this.getClass().getResource("hello.css").toExternalForm();
