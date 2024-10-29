@@ -1,0 +1,16 @@
+.root{
+    -fx-background-color:#c07bf8;
+}
+.label{
+    -fx-font-size:10;
+    -fx-font-family:"Lucida Console";
+    -fx-text-fill:white;
+    -fx-alignment:center;
+}
+#titulolab{
+    -fx-font-size:80;
+
+}
+#textolab{
+    -fx-font-size:30;
+}
